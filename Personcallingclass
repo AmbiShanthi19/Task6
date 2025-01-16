@@ -1,0 +1,22 @@
+
+
+package task6;
+
+public class Personcallingclass {
+
+	public static void main(String[] args) {
+		Person obj=new Person("Anuradha",45);  //calling the constructor 
+		
+		//Get name and age
+		
+		System.out.println(obj.getName() + " is " + obj.getage() + " years old");
+		
+		//set new name and age
+		
+		obj.setname("Banu");
+		obj.setage(34);
+		
+		System.out.println(obj.getName() + " is " + obj.getage() + " years old");
+	} 
+
+}
